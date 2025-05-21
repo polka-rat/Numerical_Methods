@@ -1,0 +1,289 @@
+
+
+*******************************************************************************
+Tue Nov 14 06:56:22 2023
+
+
+FIT:    data read from "cubes.txt"
+        format = z
+        #datapoints = 1001
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x^2+b2
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Tue Nov 14 06:56:35 2023
+
+
+FIT:    data read from "cubes.txt"
+        format = z
+        #datapoints = 1001
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x^2+b
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Tue Nov 14 06:56:59 2023
+
+
+FIT:    data read from 'cubes.txt'
+        format = z
+        #datapoints = 1001
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x^2+b
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Tue Nov 14 06:57:49 2023
+
+
+FIT:    data read from 'cubes.txt'
+        format = z
+        #datapoints = 1001
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.4002661036e+14   0.00e+00  3.16e+03    1.000000e+00   1.000000e+00
+   6 2.2417864724e+12  -9.03e-07  3.16e-03    9.378430e+01  -6.252206e+04
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.24179e+12
+rel. change during last iteration : -9.02818e-12
+
+degrees of freedom    (FIT_NDF)                        : 999
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 47371.2
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.24403e+09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 93.7843          +/- 0.5017       (0.5349%)
+b               = -62522.1         +/- 2245         (3.591%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.745  1.000 
+
+
+*******************************************************************************
+Tue Nov 14 06:59:00 2023
+
+
+FIT:    data read from 'cubes.txt'
+        format = z
+        #datapoints = 1001
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.4002661036e+14   0.00e+00  3.16e+03    1.000000e+00   1.000000e+00
+   6 2.2417864724e+12  -9.03e-07  3.16e-03    9.378430e+01  -6.252206e+04
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.24179e+12
+rel. change during last iteration : -9.02818e-12
+
+degrees of freedom    (FIT_NDF)                        : 999
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 47371.2
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.24403e+09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 93.7843          +/- 0.5017       (0.5349%)
+b               = -62522.1         +/- 2245         (3.591%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.745  1.000 
+
+
+*******************************************************************************
+Tue Nov 14 07:03:26 2023
+
+
+FIT:    data read from 'BaselessNoise.txt'
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=A * exp(-x*x/(2*sigma_g*sigma_g))
+fitted parameters initialized with current variable values
+
+   5 9.1315597336e-01  -1.06e-01  6.00e-06    8.968086e-01   2.252859e-01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.913156
+rel. change during last iteration : -1.06178e-06
+
+degrees of freedom    (FIT_NDF)                        : 97
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0970257
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00941398
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 0.896809         +/- 0.03779      (4.214%)
+sigma_g         = 0.225286         +/- 0.01096      (4.867%)
+
+correlation matrix of the fit parameters:
+                A      sigma_ 
+A               1.000 
+sigma_g        -0.577  1.000 
+
+
+*******************************************************************************
+Tue Nov 14 07:05:13 2023
+
+
+FIT:    data read from 'BaselessNoise.txt'
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=A * exp(-x*x/(2*sigma_g*sigma_g))
+fitted parameters initialized with current variable values
+
+   6 7.8756185443e-01  -7.54e-02  6.00e-07    9.080481e-01   2.045782e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.787562
+rel. change during last iteration : -7.54011e-07
+
+degrees of freedom    (FIT_NDF)                        : 97
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0901066
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00811919
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 0.908048         +/- 0.03683      (4.056%)
+sigma_g         = 0.204578         +/- 0.009583     (4.684%)
+
+correlation matrix of the fit parameters:
+                A      sigma_ 
+A               1.000 
+sigma_g        -0.577  1.000 
+
+
+*******************************************************************************
+Tue Nov 14 13:58:12 2023
+
+
+FIT:    data read from 'BaselessNoise.txt'
+        format = z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=A * exp(-x*x/(2*sigma_g*sigma_g))
+fitted parameters initialized with current variable values
+
+   5 4.0120578200e+00  -5.78e-01  5.20e-06    6.446215e+00   1.107856e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 4.01206
+rel. change during last iteration : -5.78311e-06
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.00301
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.01206
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 6.44622          +/- 2.003        (31.07%)
+sigma_g         = 1.10786          +/- 0.3953       (35.69%)
+
+correlation matrix of the fit parameters:
+                A      sigma_ 
+A               1.000 
+sigma_g        -0.267  1.000 
+
+
+*******************************************************************************
+Tue Nov 14 13:59:12 2023
+
+
+FIT:    data read from 'BaselessNoise.txt'
+        format = z
+        #datapoints = 1000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=A * exp(-x*x/(2*sigma_g*sigma_g))
+fitted parameters initialized with current variable values
+
+   7 2.4536879034e+00  -4.66e-02  6.00e-08    8.915560e-01   2.168973e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 2.45369
+rel. change during last iteration : -4.66235e-07
+
+degrees of freedom    (FIT_NDF)                        : 998
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0495843
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00245861
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 0.891556         +/- 0.006196     (0.695%)
+sigma_g         = 0.216897         +/- 0.001741     (0.8027%)
+
+correlation matrix of the fit parameters:
+                A      sigma_ 
+A               1.000 
+sigma_g        -0.577  1.000 
+
+
+*******************************************************************************
+Tue Nov 14 14:00:42 2023
+
+
+FIT:    data read from 'BaselessNoise.txt'
+        format = z
+        #datapoints = 1000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=A * exp(-x*x/(2*sigma_g*sigma_g))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             sigma_g      
+   0 2.4982926035e+02   0.00e+00  6.00e-01    1.000000e+00   1.000000e+00
+   7 2.4536879034e+00  -4.66e-02  6.00e-08    8.915560e-01   2.168973e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 2.45369
+rel. change during last iteration : -4.66235e-07
+
+degrees of freedom    (FIT_NDF)                        : 998
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0495843
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00245861
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 0.891556         +/- 0.006196     (0.695%)
+sigma_g         = 0.216897         +/- 0.001741     (0.8027%)
+
+correlation matrix of the fit parameters:
+                A      sigma_ 
+A               1.000 
+sigma_g        -0.577  1.000 

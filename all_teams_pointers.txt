@@ -1,0 +1,36 @@
+Pointers(tempalate):
+used xgboost , lgbm.
+THe tools they used were fibonnaci repplacement. 
+
+Pointers (alpha bulls):
+used rsi , mom , roc, macd , sma , ema
+they have used xgbooost model to predict 
+THey show comparizon of all they strategies in a graph.
+Total of 4 strategies mostly pulled ooff the internet.
+SHow roi of their portfoliio on paper trade .
+Incorporate dynamic risk management .
+DOnt just stop on one stock backtest on multiple stocks . 
+The accuracy vlaues we get is too high and around 50 to 60 is good enough.
+Know ur market terms . qna can ask on these .
+
+
+pointer(quantathon kings):
+They ATTEMPTED TO USE ML but couldngt get satsfactory results so they shifted over to tradictional indicators.
+They used ADX ,sma ,crossover ,ARoon odcillator , stochastic slow, supertrend, volume weighted average price.
+THeir strat was to use super trend and sma crossover . The arron oscillator is also used to indeitfy strength of trend.
+They have also implemented a risk managment technique.
+They were able to generate about 265% profit over 6 years with drawdown of 24.3%
+Thwy have used sma corssover as a check function to their previous supertrend calls.
+THey have done fine tuning with sentiment analysis and also regime classification.
+Markov models have been used for the previous tuning.
+ 
+pointer(iit kgp):
+THey have used XGboost algorithm.
+THey used RSI , bollinger, macd, volume etc.
+They check through a bunch of stocks and top 5 are selected .
+THey got 94% annual reutnr.They goot 600% for 3 years.
+
+pointer (dheheradun cartel):
+Augmented dickey fuller , auto arima  autoagreessive integrated moving avergae, autocorrelations and parital auto corelation.
+they got very similar returns to ours about 
+ 
